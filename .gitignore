@@ -1,0 +1,21 @@
+ChromeDriver.txt
+.vscode/
+# OSX
+#
+.DS_Store
+
+# IntelliJ
+#
+.idea
+
+# node.js
+#
+node_modules/
+assets/
+npm-debug.log
+
+# custom
+apps/
+*.log
+chromeDriver
+allure-results/

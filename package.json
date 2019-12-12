@@ -1,0 +1,48 @@
+{
+  "name": "webdriverio-examples",
+  "version": "1.0.0",
+  "description": "This is Automation Testing project for PopflyXP CMS implementation",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test-chrome-local": "./node_modules/.bin/wdio conf/wdio.chrome.local.js",
+    "test-firefox-local": "./node_modules/.bin/wdio conf/wdio.firefox.local.js"
+  },
+  "author": "Jorge Perez",
+  "license": "MIT",
+  "dependencies": {
+    "@wdio/cli": "^5.0.0 ",
+    "@wdio/local-runner": "5",
+    "@wdio/spec-reporter": "5",
+    "@wdio/sync": "5",
+    "@wdio/jasmine-framework": "^5.15.1",
+    "jasmine": "^3.5.0",
+    "mailhog": "4",
+    "uuid": "3",
+    "wdio-screen-commands": "2",
+    "webdriverio": "^5.12.4",
+    "wdio-chromedriver-service": "^5.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/register": "^7.5.5",
+    "@babel/traverse": "^7.5.5",
+    "@babel/types": "^7.5.5",
+    "@wdio/allure-reporter": "^5.13.2",
+    "@wdio/appium-service": "^5.12.1",
+    "babel-eslint": "^10.0.2",
+    "chromedriver": "^77.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-wdio": "^5.12.1",
+    "geckodriver": "^1.19.1",
+    "node-fetch": "^2.3.0",
+    "wdio-geckodriver-service": "^1.0.3"
+  }
+}
